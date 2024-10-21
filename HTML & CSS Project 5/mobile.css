@@ -1,0 +1,162 @@
+  .nav{
+    background-image: url(Marcelo-1.webp);
+    background-size: cover;
+    width: 95%;
+    height: 270px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .upper-area{
+    color: white;
+    width: 95%;
+  }
+  .upper-area h1{
+      font-weight: 700;
+      margin-top:45px;
+      margin-left:20px;
+      font-size: 1.5rem;
+  }
+  .upper-area p {
+    margin-top:8px;
+    margin-left:20px;
+    font-size: .85rem;
+  }
+  .upper-area button{
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #801c35de;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    border:2px solid #801c35de;
+  }
+  .upper-area button:hover{
+    background-color: #590b1ede;
+    border:2px solid white;
+  }
+  .photo2{
+    display: none;
+  }
+
+  /* section */
+
+  section{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center; 
+  }
+
+  .all_area{
+    width: 95%;
+    display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   
+  
+  }
+  
+  .left_area{
+    padding: 10px;
+    width: 95%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color:transparent;
+  }
+  
+  .left_area li{
+    list-style-type: none;
+   
+  }
+  
+  .left_area button{
+    width: 120px;
+    padding:5px 8px;
+    border: 2px solid #E8E8E8;
+    border-radius: 5px;
+    background-color:white;
+    
+  }
+  .left_area button:hover{
+    background-color: #dd0000;
+    cursor: pointer;
+    color: #E8E8E8;
+    border: 2px solid #dd0000;
+  }
+
+
+
+  .photo{
+    background-image: url(1234f.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 250px;  
+    /* background-color: blue; */
+    display: inline-block;
+    border: 2px solid #E8E8E8;
+    border-radius: 5px;
+  }
+  .right_area .photo-photo4{
+    display: none;
+  }
+  .right_area{
+    display: flex;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+   width: 100%;
+   gap: 5px;
+  }
+.right_area button{
+    padding: 5px 10px;
+    margin:20px 0;
+    color: white;
+    background-color: #dd0000;
+    border: 2px solid #dd0000;
+    border-radius: 5px;
+    
+}
+  
+ /* footer */
+
+ footer{
+    display: flex;
+    justify-content: center;
+    
+   }
+  .footer_area{
+    background-color: #0A0B0D;
+    height: 200px;
+    margin-top:0px;
+    color: white;
+    width: 95%;
+    border-radius: 5px;
+    padding: 0;
+    
+  }
+  .footer_area h1{
+    font-size: 1.3rem;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .foot_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .foot_list li{
+    list-style: none;
+    font-size: .7rem;
+    color: #B9B9B9;
+    padding: 5px;
+  }
